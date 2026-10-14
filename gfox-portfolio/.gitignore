@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+dist-ssr/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Local backups
+*.bak
+*.tmp
