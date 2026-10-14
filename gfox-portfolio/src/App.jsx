@@ -58,16 +58,40 @@ function Hero(){
         <h2>Computer Science Student</h2>
         <h2>Aspiring Full-Stack Web and Java Developer</h2>
         <div id="hero-content-buttons">
-        <button class="hero-button">  My Skills  </button>
-        <button class="hero-button">  My Projects  </button>
+        <button className="hero-button">  My Skills  </button>
+        <button className="hero-button">  My Projects  </button>
       </div>
       </div>
     </section>
   )
 }
 
-function Projects(){
-  return <section id="projects" />
+function About(){
+  return (
+    <section id="About" aria-label="About">
+      <div className="line"></div>
+      <div id="conteneur1">
+<div id="textes">
+<h4>About Me</h4>
+<h2>Driven by Curiosity <br></br> Defined by <span id="discipline">Discipline</span>.</h2>
+<p>Since I started studying computer science, I've become more disciplined and eager to explore new technologies and techniques, while keeping up with the evolving world of AI.</p>
+<a href="More">Discover More ↗</a>
+</div>
+<div className="line"></div>
+<div id="qualities">
+<h4>01</h4>
+<h3>Discipline</h3>
+<p>I feel most fulfilled when I've spent my day learning something new or making progress on a project.</p>
+<h4>02</h4>
+<h3>Passion</h3>
+<p>Few things are more satisfying than building something and seeing it work exactly as intended.</p>
+<h4>03</h4>
+<h3>Curiosity</h3>
+<p>It drives me to explore new ideas and discover more about the world of technology</p>
+</div>
+      </div>
+</section>
+  )
 }
 
 function App() {
@@ -75,7 +99,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Projects />
+      <About />
     </>
   )
 }

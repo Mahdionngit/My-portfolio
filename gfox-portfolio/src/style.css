@@ -1,6 +1,6 @@
 body { margin: 0; background: #151515; }
 
-/*la scrollbar*/
+/*la scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -59,7 +59,7 @@ nav ul li a:hover {
 
 #logo img { display: block; width: 104px; height: 76px; object-fit: contain; }
 
-/* Abstract gold fox hero */
+/* start of hero css */
 #hero {
     position: relative;
   display: grid;
@@ -88,7 +88,7 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
   width: min(76%, 490px);
-  animation: fox-float 7s ease-in-out infinite;
+  animation: fox-float 5s ease-in-out infinite;
   filter: drop-shadow(0 18px 38px rgba(0, 0, 0, .28));
 }
 .fox-sculpture__svg {
@@ -183,6 +183,106 @@ nav ul li a:hover {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
-/*end of hero section*/
+/*fin de la section hero uuullyyysseee*/
+/*début de la section about*/
+.line{
+  border: solid 1px #C6A96B;
+  width: 70%;
+  height: 1px;
+  margin-left: 150px;
+  opacity: 0.4;
+}
+#conteneur1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#textes{
+grid-column: 1/2;
+}
+#conteneur1 .line {
+  grid-column: 2 / 3;
+  width: 1px;
+  height: 600px;
+  background-color: #C6A96B;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+#qualities {
+grid-column: 3/4;
+}
+#conteneur1 #textes {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 100px;
+letter-spacing: 1px;
+text-align: left;
+margin-left: 30px;
+}
+#conteneur1 #textes h4 {
+  color: #C6A96B;
+  text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.8rem;
+}
+#conteneur1 #textes h2 {
+color: #F5F0E8;
+font-size: 32px;
+line-height: 1.1;
+text-wrap: balance;
 
+}
+#conteneur1 #textes p {
+  line-height: 1.2;
+  opacity: 0.8;
+  max-width: 48ch;
+  text-wrap:balance;
+}
+#conteneur1 #textes a {
+  text-decoration: none;
+  color: #D8BD83;
+  font-size: 17px;
+  margin-top: 24px;
+   transition: text-shadow .3s ease;
+}
+#conteneur1 #textes a:hover{
+     text-shadow: 0 0 8px #dcac46
+}
+#discipline {
+  color: #C6A96B;
+  font-style: italic;
+}
+#conteneur1 #qualities {
+margin-top: 60px ;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-right: 50px;
+text-align: left;
+align-content: center;
 
+}
+#conteneur1 #qualities h4{
+    color: #C6A96B;
+    font-style:normal;
+    margin: 30px;
+    font-size: 0.9rem; 
+      padding-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+  line-height: 1;
+}
+#conteneur1 #qualities h3{
+  font-size: 1.6rem;
+  font-style: italic;
+  margin: 10px;
+  font-weight: 500;
+    padding-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+  line-height: 1.2;
+}
+#conteneur1 #qualities p{
+  max-width: 40ch;
+    padding-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+}
