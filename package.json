@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-v2",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix gfox-portfolio run dev --",
+    "build": "npm --prefix gfox-portfolio run build",
+    "lint": "npm --prefix gfox-portfolio run lint",
+    "preview": "npm --prefix gfox-portfolio run preview --"
+  }
+}

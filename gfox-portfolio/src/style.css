@@ -146,8 +146,10 @@ nav ul li a:hover {
   margin-left: 107px;
 }
 .hero-button{
+  display: inline-block;
   background-color: #C6A96B;
   color: #151515;
+  text-decoration: none;
   border: none;
   border-radius: 120px;
   padding: 10px 20px;
@@ -241,10 +243,11 @@ text-wrap: balance;
   color: #D8BD83;
   font-size: 17px;
   margin-top: 24px;
-   transition: text-shadow .3s ease;
+   transition: text-shadow 0.3s ease , transform 0.3s ease ;
 }
 #conteneur1 #textes a:hover{
-     text-shadow: 0 0 8px #dcac46
+     text-shadow: 0 0 8px #dcac46;
+      transform: translateY(-2px);
 }
 #discipline {
   color: #C6A96B;

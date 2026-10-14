@@ -1,0 +1,4 @@
+node_modules/
+gfox-portfolio/node_modules/
+gfox-portfolio/dist/
+*.log
